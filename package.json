@@ -10,8 +10,10 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/markdown-remark": "^6.1.0",
     "@astrojs/starlight": "^0.31.1",
     "astro": "^5.1.5",
+    "rehype-autolink-headings": "^7.1.0",
     "sharp": "^0.32.5"
   }
 }
