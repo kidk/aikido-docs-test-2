@@ -6,6 +6,8 @@ import rehypeAutolinkHeadings from "rehype-autolink-headings";
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://astronaut.github.io',
+	base: 'kidk/aikido-docs-test-2',
 	integrations: [
 		starlight({
 			title: 'Aikido Docs',

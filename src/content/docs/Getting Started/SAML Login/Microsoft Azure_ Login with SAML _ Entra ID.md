@@ -47,16 +47,16 @@ title: Microsoft Azure_ Login with SAML _ Entra ID
 
 ![Image](https://ucarecdn.com/0cc0859a-2fbd-4ca9-9442-c8114c034d3b/)
 
-**Step 8.** Click the **Unique User Identifier (Name ID)**.\
-Optional: clicking 'Add new claim' at the top of this page allows you to add [custom attributes](https://help.aikido.dev/doc/saml-user-rights-using-custom-attributes/doc6Jm7BYzwg) to SAML
+**Step 9.** Click the **Unique User Identifier (Name ID)**.\
+Optional: clicking 'Add new claim' at the top of this page allows you to add [custom attributes](https://help.aikido.dev/doc/saml-user-rights-using-custom-attributes/doc6Jm7BYzwg) to SAML. More info [here](https://help.aikido.dev/doc/microsoft-azure-custom-attributes-with-saml--entra-id/docFaysVwVZy).
 
 ![Image](https://ucarecdn.com/c58d21d6-7556-43db-96eb-3f2b81663b8d/)
 
-**Step 9.** Make sure to set **Source attribute** to `user.mail` here.
+**Step 10.** Make sure to set **Source attribute** to `user.mail` here.
 
 ![Image](https://ucarecdn.com/7359629d-6b9b-4c7a-822a-46ddb14ae30e/)
 
-**Step 10.** At step 3 you can download the **Certificate (Base64)** & at step 4 you'll see the **Login URL** and **Mircosoft Entra Identifier**. These should be copy and pasted to Aikido.
+**Step 11.** At step 3 you can download the **Certificate (Base64)** & at step 4 you'll see the **Login URL** and **Mircosoft Entra Identifier**. These should be copy and pasted to Aikido.
 
 ### Go back to Aikido
 
